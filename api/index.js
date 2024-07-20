@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const Champion = require('./models/champion.model');
+const Champion = require('../models/champion.model');
 const app = express()
 app.use(express.json());
 
