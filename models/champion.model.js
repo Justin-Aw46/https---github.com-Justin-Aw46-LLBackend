@@ -16,13 +16,13 @@ const ChampionSchema = mongoose.Schema(
             type: String
         },
         Banrate: {
-            type: Number
+            type: String
         },
         Lane: {
             type: [String]
         },
         Pickrate: {
-            type: Number
+            type: String
         }, 
         StrongAgainst: {
             type: [String]
@@ -31,7 +31,13 @@ const ChampionSchema = mongoose.Schema(
             type: [String]
         },
         Winrate:  {
-            type: Number
+            type: String
+        },
+        Items: {
+            type: [String]
+        },
+        Runes: {
+            type: [String]
         }
     }
 )
